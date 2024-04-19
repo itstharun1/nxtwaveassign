@@ -1,0 +1,11 @@
+.avcard{
+    padding: 10px;
+    padding-left: 20px;
+    background-color:rgba(245, 248, 245, 0.874);
+}
+.btn{
+    padding: 20px;
+    border-radius: 10px;
+    border-color: green;
+    color: green;
+}

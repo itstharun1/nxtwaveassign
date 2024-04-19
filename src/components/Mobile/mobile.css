@@ -1,0 +1,40 @@
+.mobile-card{
+    background-color: #FFF7E2;
+    padding: 10px;
+}
+.card1{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+}
+.img1{
+    height: 65vh;
+}
+.sec{
+    padding: 10px;
+}
+.para{
+    color: green;
+    font-size: 30px;
+}
+@media screen and (min-width:601px) {
+    .card2{
+        display: none;
+    }
+}
+@media screen and (max-width:600px) {
+    .card1{
+        display: none;
+    }
+    .img1{
+        height: 40vh;
+    }
+}

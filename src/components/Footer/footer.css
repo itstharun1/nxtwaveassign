@@ -1,0 +1,23 @@
+.img{
+    height: 40vh;
+}
+@media screen and (min-width:601px) {
+    .footer-card1{
+        background-color: #3A643B2E;
+        text-align: center;
+        padding: 10px;
+    }
+    .footer-card2{
+        display: none;
+    }
+}
+@media screen and (max-width:600px) {
+    .footer-card1{
+        display: none;
+    }
+    .footer-card2{
+        background-color: #3A643B2E;
+        text-align: center;
+        padding: 15px;
+    }
+}

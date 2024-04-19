@@ -1,0 +1,158 @@
+
+.sms{
+    background-image: url(message.png);
+    height: 10vh;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px;
+ 
+}
+
+
+
+.head-card1{
+    height: 7vh;
+    display: flex;
+    width: 100vw;
+  
+}
+
+
+@media screen and (max-width:600px) {
+    .img1{
+        height:15vh;   
+        width: 70vw;    
+    }
+    .img-main{
+        background-color: #FFF7E2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .nav-img{
+        height: 5vh;
+        margin: 10px;
+        
+    }
+    .logo-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color:#3A643B;
+        font-size: 10px;
+        margin-left: 40px;
+        padding-top: 10px;
+    }
+    .bg-card{
+        background-image: url('mobile.png');
+        background-size: cover, contain; 
+        background-position: center, top right; 
+        height: 65vh;
+        background-repeat: no-repeat;
+       
+    }
+    .heading-1{
+        color: rgb(189, 191, 193);
+        font-weight: lighter;
+    }
+    .heading-2{
+        color:white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .para-1{
+        color: rgb(189, 191, 193);
+        font-weight: lighter;
+        font-size: 15px;
+    }
+    .btn-1{
+height: 40px;
+padding: 20px;
+font-size: 10px;
+border-radius: 16px 16px 16px 16px;
+border-width: 0px;
+color: white;
+
+background: #3A643B;
+
+    }
+    .main-card{
+        padding: 30px;
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width:601px) {
+    .img-main{
+        display: flex;
+        background-color: #FFF7E2;
+        justify-content: center;
+    }
+    .img{
+        height: 10vh;
+    }
+    
+    .logo-div{
+        display: none;
+    }
+    .nav-img{
+        display: none;
+    }
+    .bg-card{
+        background-image: url('black.png'),url('body.jpg'),linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.5)); 
+        background-size: cover, contain; 
+        background-position: center, top right; 
+        height: 65vh;
+        background-repeat: no-repeat;
+        padding: 10px;
+
+    }
+    .heading-1{
+        color: rgb(189, 191, 193);
+        font-weight: lighter;
+    }
+    .heading-2{
+        color:white;
+        font-weight: bold;
+    }
+    .para-1{
+        color: rgb(189, 191, 193);
+        font-weight: lighter;
+    }
+    .btn-1{
+        height: Fixed (70px)px;
+        padding: 28px 40px 21px 40px;
+        gap: 10px;
+        border-radius: 16px 16px 16px 16px;
+        border-width: 0px;
+        color: white;
+        opacity: 0px;
+        background: #3A643B;
+        
+            }
+    
+    .main-card{
+        padding: 60px;
+        margin: 20px;
+    }
+
+}
+
+@media screen and (min-width:950px) {
+    .img{
+        height: 15vh;
+    } 
+    .bg-card{
+        background-image: url('black.png'),url('body.jpg'),linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.5)); 
+        background-size: cover, contain; 
+        background-position: center, top right; 
+        height: 75vh;
+        background-repeat: no-repeat;
+        padding: 10px;
+
+    }
+  
+}
