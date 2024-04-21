@@ -29,12 +29,29 @@
     .card2{
         display: none;
     }
+    .para{
+        font-size: 30px;
+    }
+    .btns{
+        height: 10vh;
+    }
+
 }
 @media screen and (max-width:600px) {
     .card1{
         display: none;
     }
     .img1{
-        height: 40vh;
+        height: 30vh;
     }
+    .btns{
+        height: 5vh;
+    }
+    .para{
+        font-size: 20px;
+    }
+
+}
+.mobile-card{
+    overflow: hidden;
 }

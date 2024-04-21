@@ -12,10 +12,10 @@ import medi from './medi.png'
 class AyurvedaCard extends Component{
     render(){
         return(
-            <div>
+            <div className="magic-div">
                 <div className="main-card-magic">
                     <h1 className="heading-magic">Discover Ayurveda's Magic With Us</h1>
-                    <p className="para1">Ayurvedic treatment aims to balance your body and mind, <br/> bringing harmony and vitality. It's like a journey to better health using ancient wisdom,<br/> a totally effective approach for a better life.</p>
+                    <p className="para2">Ayurvedic treatment aims to balance your body and mind, <br/> bringing harmony and vitality. It's like a journey to better health using ancient wisdom,<br/> a totally effective approach for a better life.</p>
                 </div>
                 <div className="main-love-card">
                 <div className="card11">

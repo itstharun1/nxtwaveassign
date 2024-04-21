@@ -41,13 +41,13 @@ const AvCard = () => {
         <div className="slider-container div1">
       <Slider {...settings}>
         <div>
-          <img src={cs1} alt='img'/>
+          <img className='avImg' src={cs1} alt='img'/>
         </div>
         <div>
-        <img src={cs2} alt='img'/>
+        <img className='avImg' src={cs2} alt='img'/>
         </div>
         <div>
-        <img src={cs3} alt='img'/>
+        <img className='avImg' src={cs3} alt='img'/>
         </div>
         
       </Slider>

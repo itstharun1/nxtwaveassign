@@ -94,6 +94,10 @@ background: #3A643B;
     .img{
         height: 10vh;
     }
+    .imgt{
+        height: 10vh;
+        margin: 5px;
+    }
     
     .logo-div{
         display: none;
@@ -102,12 +106,10 @@ background: #3A643B;
         display: none;
     }
     .bg-card{
-        background-image: url('black.png'),url('body.jpg'),linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.5)); 
-        background-size: cover, contain; 
-        background-position: center, top right; 
-        height: 65vh;
-        background-repeat: no-repeat;
-        padding: 10px;
+        background-image: url('bgimg.jpeg') ;
+        background-size: cover; 
+       max-width: 100%;
+       height: auto;
 
     }
     .heading-1{
@@ -145,14 +147,41 @@ background: #3A643B;
     .img{
         height: 15vh;
     } 
+    .imgt{
+        height: 15vh;
+        margin: 5px;
+    }
+    .heading-1{
+        font-size: 30px;
+    }
+    .heading-2{
+        font-size: 40px;
+    }
     .bg-card{
-        background-image: url('black.png'),url('body.jpg'),linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.5)); 
-        background-size: cover, contain; 
-        background-position: center, top right; 
-        height: 75vh;
+        background-image: url('bgimg.jpeg'); 
+    
+        background-size: cover; 
+        
+        max-width: 100%;
+    height: auto;
+        
         background-repeat: no-repeat;
-        padding: 10px;
+        padding: 30px;
 
     }
+    
+    .head-card1{
+        width: 100vw;
+    }
+    .img-main{
+        width: 100vw;
+        background-color: #FFF7E2 ;
+        background-size: cover;
+    }
   
+}
+.bg-container-div{
+    width: 100vw;
+    overflow: hidden;
+    overflow-y: hidden;
 }

@@ -12,7 +12,7 @@ import img4 from './img4.png'
 class Avurvedic extends Component{
     render(){
         return(
-            <div>
+            <div className="ayur-card1">
                 <div className="text-card">
                 <h1 className="head">Our Ayurvedic approach</h1>
                 <p>
@@ -20,10 +20,10 @@ class Avurvedic extends Component{
                 </p>
                 </div>
                 <div className="imgcard">
-                    <img src={img1} alt="img"/>
-                    <img src={img2} alt="img"/>
-                    <img src={img3} alt="img"/>
-                    <img src={img4} alt="img"/>
+                    <img className="imgCardimg" src={img1} alt="img"/>
+                    <img className="imgCardimg"  src={img2} alt="img"/>
+                    <img className="imgCardimg"  src={img3} alt="img"/>
+                    <img className="imgCardimg"  src={img4} alt="img"/>
                 
                 </div>
                 <div className="card">

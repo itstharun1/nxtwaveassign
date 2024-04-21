@@ -11,7 +11,7 @@
 @media screen and (max-width:600px) {
     .heading{
         color: white;
-        font-size: 40px;
+        font-size: 20px;
         padding-top: 90px;
 
     }
@@ -33,14 +33,13 @@
     }
     .img-card-bottle{
         background-image: url(btl2.png);
-        height: 70vh;
-      padding: 10px;
         width: 100vw;
+        height: 70vh;
 
     }
     .card-img{
         
-        width: 80vw;
+        height: 40vh;
     }
     .card-imgs{
         display: flex;
@@ -65,7 +64,7 @@
     }
     .heading{
         color: white;
-        font-size: 40px;
+        font-size: 30px;
         padding-top: 90px;
 
     }
@@ -85,8 +84,30 @@
         margin: 20px;
         color: white;
     }
+    .body-heading{
+        font-size: 20px;
+    }
+    .card-img{
+        height: 25vh;
+    }
 
 
 
     
+}
+@media screen and (min-width:950px) {
+    .body-heading{
+        font-size: 30px;
+    }
+    .card-img{
+        height: 35vh;
+    }
+    .heading{
+        font-size: 40px;
+    }
+}
+
+.body2-div{
+    overflow: hidden;
+    overflow-y: hidden;
 }

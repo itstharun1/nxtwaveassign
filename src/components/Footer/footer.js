@@ -4,7 +4,7 @@ import text2 from './text2.png'
 
 const Footer=()=>{
     return(
-        <div>
+        <div className='footerdiv'>
             <div className="footer-card1">
                 <img className='img' src={text} alt='text'/>
             </div>

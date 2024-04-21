@@ -10,7 +10,7 @@ import img4 from './img4.png'
 class Header extends Component{
     render(){
         return(
-            <div>
+            <div className="bg-container-div">
               
                 
                 <div className="head-card1">
@@ -19,7 +19,7 @@ class Header extends Component{
                           <h1 className="logo">AMRUTUM</h1>
                     </div>
                 </div>
-                <div className="bg-card">
+                <div className="bg-card bg-container-div">
                     <div className="main-card">
                     <h4 className="heading-1">Namaste, Welcome to Amrutam</h4>
                     <h2 className="heading-2">Step into Holistic Healing with Ayurveda Book Consultation with certified Experts</h2>

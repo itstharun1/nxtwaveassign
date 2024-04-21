@@ -23,16 +23,16 @@ const Card = () => {
   return (
     <div className="slider-container">
       <Slider {...settings}>
-        <div>
+        <div className='cc-img'>
           <img src={img1} alt='img'/>
         </div>
-        <div>
+        <div className='cc-img'>
         <img src={img2} alt='img'/>
         </div>
-        <div>
+        <div className='cc-img'>
         <img src={img3} alt='img'/>
         </div>
-        <div>
+        <div className='cc-img'>
         <img src={img4} alt='img'/>
         </div>
         

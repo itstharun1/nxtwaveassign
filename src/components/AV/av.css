@@ -4,5 +4,24 @@
 }
 .avcard{
    text-align: center;
+   overflow: hidden;
 }
 
+@media screen and (max-width:600px) {
+    .avImg{
+        height: 40vh;
+    }
+}
+@media screen and (min-width:900px) {
+    .avImg{
+        height: 40vh;
+    }
+    .avcard{
+        text-align: center;
+        background-color: #FFF7E2;
+        overflow: hidden;
+    }
+    .head{
+        font-size: 40px;
+    }
+}

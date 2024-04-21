@@ -13,7 +13,7 @@ import zero from './zero.png'
 class Body2 extends Component{
     render(){
         return(
-            <div>
+            <div className="body2-div">
                 <div className="body-main">
                 <div>
                     <h1 className="body-heading">What sets Ayurvedic consultations apart?</h1>

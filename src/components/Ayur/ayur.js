@@ -39,13 +39,13 @@ const Ayur = () => {
         <div className="slider-container">
       <Slider {...settings}>
         <div>
-          <img src={ayurimg} alt='img'/>
+          <img className='imgy' src={ayurimg} alt='img'/>
         </div>
         <div >
-        <img src={ayurimg} alt='img'/>
+        <img className='imgy' src={ayurimg} alt='img'/>
         </div>
         <div >
-        <img src={ayurimg} alt='img'/>
+        <img className='imgy' src={ayurimg} alt='img'/>
         </div>
         
       </Slider>
